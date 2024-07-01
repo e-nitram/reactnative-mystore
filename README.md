@@ -94,7 +94,7 @@ Installation
 Follow these steps to set up MyStoreApp:
 Clone the repository:
 
-git clone https://github.com/uzair888/mystoreapp
+git clone https://github.com/e-nitram/reactnative-mystore
 cd MyStoreApp
 Install dependencies:
 
