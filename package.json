@@ -1,0 +1,63 @@
+{
+  "name": "MyStoreApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nozbe/watermelondb": "^0.27.1",
+    "@nozbe/with-observables": "^1.6.0",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-native-picker/picker": "^2.7.7",
+    "@react-navigation/bottom-tabs": "^6.5.20",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/stack": "^6.3.29",
+    "@reduxjs/toolkit": "^2.2.6",
+    "@supabase/supabase-js": "^2.44.2",
+    "axios": "^1.7.2",
+    "react": "18.2.0",
+    "react-native": "0.74.2",
+    "react-native-gesture-handler": "^2.17.1",
+    "react-native-reanimated": "^3.12.1",
+    "react-native-safe-area-context": "^4.10.7",
+    "react-native-screens": "^3.32.0",
+    "react-redux": "^9.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
+    "@react-native/babel-preset": "0.74.84",
+    "@react-native/eslint-config": "0.74.84",
+    "@react-native/metro-config": "0.74.84",
+    "@react-native/typescript-config": "0.74.84",
+    "@types/react": "^18.2.6",
+    "@types/react-test-renderer": "^18.0.0",
+    "babel-jest": "^29.6.3",
+    "eslint": "^8.19.0",
+    "jest": "^29.6.3",
+    "prettier": "2.8.8",
+    "react-test-renderer": "18.2.0",
+    "typescript": "5.0.4"
+  },
+  "resolutions": {
+    "@react-native-community/cli": "^7.0.0",
+    "@react-native-community/cli-config": "^7.0.0",
+    "@react-native-community/cli-debugger-ui": "^7.0.0",
+    "@react-native-community/cli-doctor": "^7.0.0",
+    "@react-native-community/cli-platform-android": "^7.0.0",
+    "@react-native-community/cli-platform-ios": "^7.0.0",
+    "@react-native-community/cli-server-api": "^7.0.0",
+    "@react-native-community/cli-tools": "^7.0.0",
+    "@react-native-community/cli-types": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "yarn@3.6.4"
+}
